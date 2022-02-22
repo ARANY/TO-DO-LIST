@@ -4,25 +4,26 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TO DO LIST</title>
-    <script src = "script.js"></script>
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">    
 </head>
 <body>
-    <h1>To do List</h1>
+    <div id ="header">
+        <h1>To do List </h1> 
+        <h3>Time:</h3>
+        <h4 id="clock">CLOCK</h4>
+    </div>
     <form id="ourForm"> 
-    <input type= "text" autocomplete = "off">
-    <button>Create item</button>
+      <input id = "ourInput" type= "text" autocomplete = "off">
+      <button>Create item</button>
+    </form>
 
     <h3>Need to do</h3>
-    <h2 id="clock">CLOCK</h2>
-    <ul>
-         <li>Sweet</li><button>delete</button>
-         <li>Biscuit</li><button>delete</button>
-         <li>Necklace</li><button>delete</button>
+    
+    <ul id ="ourList">
+   
 
     </ul>
-
-    
-</form>
+    <script type="text/javascript" src="script.js"></script>
 </body>
 </html>
